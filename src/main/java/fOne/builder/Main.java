@@ -2,41 +2,64 @@ package fOne.builder;
 
 import java.util.Scanner;
 
+import static fOne.builder.BolideService.*;
+import static fOne.builder.BolideFilterSortBolideArrayList.*;
+
 public class Main {
-    static void main(String[] args) {
+    public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
+        BolideArrayList<Bolide> bolides = new BolideArrayList<>();
+
         boolean isRunning = true;
 
         while (isRunning) {
             printMenu();
 
-            if (scanner.hasNextInt()) {
-                int choice = scanner.nextInt();
-                scanner.nextLine();
+            String input = scanner.nextLine();
+            int choice;
 
-                switch (choice) {
-                    case 1:
-                        System.out.println("Вариант 1");
-                        break;
-                    case 2:
-                        System.out.println("Завершение программы");
-                        isRunning = false;
-                        break;
-                    default:
-                        System.out.println("Неизвестная ошибка. Введите число из списка меню");
-                }
-            } else {
-                System.out.println("Ошибка");
-                scanner.next();
+            try {
+                choice = Integer.parseInt(input);
+            } catch (NumberFormatException e) {
+                System.out.println("Некорректный ввод.");
+                continue;
+            }
+
+            switch (choice) {
+                case 1:
+                    addBolide(scanner, bolides);
+                    break;
+                case 2:
+                    loadBolides(scanner, bolides);
+                    break;
+                case 3:
+                    showBolides(bolides);
+                    break;
+                case 4:
+                    filterBolides(scanner, bolides);
+                    break;
+                case 5:
+                    sortBolides(scanner, bolides);
+                    break;
+                case 6:
+                    System.out.println("Завершение программы.");
+                    isRunning = false;
+                    break;
+                default:
+                    System.out.println("Некорректное число");
             }
         }
         scanner.close();
     }
 
     private static void printMenu() {
-        System.out.println("=== МЕНЮ ===");
-        System.out.println("1. Добавить болид 1");
-        System.out.println("2. Выход");
-        System.out.println("Выберите пункт: ");
+        System.out.println("=========== МЕНЮ ===========");
+        System.out.println("1. Добавить болид вручную");
+        System.out.println("2. Загрузить болиды из файла");
+        System.out.println("3. Показать все болиды");
+        System.out.println("4. Фильтрация болидов");
+        System.out.println("5. Сортировка болидов");
+        System.out.println("6. Выход");
+        System.out.print("Выберите пункт: ");
     }
 }

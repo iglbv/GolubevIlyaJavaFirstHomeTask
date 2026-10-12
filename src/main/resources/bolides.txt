@@ -1,0 +1,22 @@
+Ferrari;Charles Leclerc;SF-26
+Ferrari;Lewis Hamilton;SF-26
+Red Bull Racing;Max Verstappen;RB22
+Red Bull Racing;Isack Hadjar;RB22
+Mercedes;George Russell;W17
+Mercedes;Kimi Antonelli;W17
+McLaren;Lando Norris;MCL40
+McLaren;Oscar Piastri;MCL40
+Aston Martin;Fernando Alonso;AMR26
+Aston Martin;Lance Stroll;AMR26
+Alpine;Pierre Gasly;A526
+Alpine;Franco Colapinto;A526
+Williams;Alexander Albon;FW48
+Williams;Carlos Sainz;FW48
+Racing Bulls;Liam Lawson;VCARB03
+Racing Bulls;Arvid Lindblad;VCARB03
+Haas;Esteban Ocon;VF-26
+Haas;Oliver Bearman;VF-26
+Audi;Nico Hulkenberg;R26
+Audi;Gabriel Bortoleto;R26
+Cadillac;Sergio Perez;MAC-26
+Cadillac;Valtteri Bottas;MAC-26
