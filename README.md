@@ -23,3 +23,13 @@
 # resources/bolides.txt
 Текстовый файл для теста
 Путь файла: src/main/resources/bolides.txt
+
+Версии:
+------------------------------------------------------------
+Gradle 9.6.0
+------------------------------------------------------------
+Kotlin:        2.3.21
+Groovy:        4.0.32
+Ant:           Apache Ant(TM) version 1.10.17 compiled on April 6 2026
+Launcher JVM:  26.0.2.1 (Oracle Corporation 26.0.2.1+1-7)
+OS:            Windows 11 10.0 amd64
