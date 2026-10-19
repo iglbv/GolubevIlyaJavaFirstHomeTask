@@ -10,6 +10,13 @@ import static fOne.builder.sort.BolideFilterSortBolideArrayList.*;
 
 public class Main {
     public static void main(String[] args) {
+
+        try {
+            System.setOut(new java.io.PrintStream(System.out, true, "UTF-8"));
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+
         Scanner scanner = new Scanner(System.in);
         BolideArrayList<Bolide> bolides = new BolideArrayList<>();
 
