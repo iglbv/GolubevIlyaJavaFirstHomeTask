@@ -1,5 +1,6 @@
 package fOne.builder.collection;
 
+@SuppressWarnings("unchecked")
 public class BolideArrayList<T> {
     private Object[] data = new Object[2];
     private int size = 0;
