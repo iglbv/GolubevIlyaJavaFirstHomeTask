@@ -3,19 +3,19 @@
 
 Предметная область - болиды Формулы-1.
 
-# Bolide
+# model/Bolide
 Класс болида
 
-# BolideArrayList
+# collection/BolideArrayList
 Реализация собственной коллекции
 
-# BolideService
+# service/BolideService
 Методы с добавлением болидов вручную и с помощью файла
 
-# BolideFilterSortStreamApi
+# sort/BolideFilterSortStreamApi
 Методы фильтрации и сортировки с помощью Stream API (сейчас не экспортируется в main)
 
-# BolideFilterSortBolideArrayList
+# sort/BolideFilterSortBolideArrayList
 Методы фильтрации и сортировки на собственной коллекции (вот этот экспортируется в main)
 
 # resources/bolides.txt
