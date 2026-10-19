@@ -1,4 +1,4 @@
-package fOne.builder;
+package fOne.builder.collection;
 
 public class BolideArrayList<T> {
     private Object[] data = new Object[2];

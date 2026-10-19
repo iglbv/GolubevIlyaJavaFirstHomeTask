@@ -1,4 +1,7 @@
-package fOne.builder;
+package fOne.builder.sort;
+
+import fOne.builder.collection.BolideArrayList;
+import fOne.builder.model.Bolide;
 
 import java.util.Comparator;
 import java.util.Scanner;

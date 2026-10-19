@@ -1,4 +1,4 @@
-package fOne.builder;
+package fOne.builder.model;
 
 public class Bolide {
     private String team;

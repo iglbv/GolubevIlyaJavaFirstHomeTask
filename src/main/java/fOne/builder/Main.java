@@ -1,9 +1,12 @@
 package fOne.builder;
 
+import fOne.builder.collection.BolideArrayList;
+import fOne.builder.model.Bolide;
+
 import java.util.Scanner;
 
-import static fOne.builder.BolideService.*;
-import static fOne.builder.BolideFilterSortBolideArrayList.*;
+import static fOne.builder.service.BolideService.*;
+import static fOne.builder.sort.BolideFilterSortBolideArrayList.*;
 
 public class Main {
     public static void main(String[] args) {
